@@ -1,8 +1,11 @@
 import UpdateData from "./learn/UpdateData";
+import StateWithClass from "./learn/StateWithClass";
+
 function App() {
   return (
     <>
-      <UpdateData />
+     {/* <UpdateData /> */}
+     <StateWithClass/>
     </>
   );
 }

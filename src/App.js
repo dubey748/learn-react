@@ -3,6 +3,7 @@ import StateWithClass from "./learn/StateWithClass";
 import PropsWithFunctionalComponent from "./learn/PropsWithFunctionalComponent";
 import PropsInClassComponent from "./learn/PropsInClassComponent";
 import GetInputBoxValue from "./learn/GetInputBoxValue";
+import ShowAndToggle from "./learn/ShowAndToggle";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <PropsWithFunctionalComponent name={"Himanshi"} email={"abc@"}/> */}
       {/* <PropsInClassComponent name="ABhishek" />
       <button onClick={()=>{}}>UpdateName</button> */}
-      <GetInputBoxValue/>
+      {/* <GetInputBoxValue/> */}
+      <ShowAndToggle/>
 
     </>
   );

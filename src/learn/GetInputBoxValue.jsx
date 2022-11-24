@@ -6,7 +6,7 @@ function GetInputBoxValue() {
   function getData(val) {
     setData(val.target.value);
     setPrint(false) //hide data while typing
-  }
+  } 
   return (
     <>
       {/* <h1>Get Input Box Value, And entered data is, {data} </h1> */}

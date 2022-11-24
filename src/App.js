@@ -6,6 +6,7 @@ import GetInputBoxValue from "./learn/GetInputBoxValue";
 import ShowAndToggle from "./learn/ShowAndToggle";
 import HandleForm from "./learn/HandleForm";
 import ConditionalRendering from "./learn/ConditionalRendering";
+import BasicFormValidation from "./learn/BasicFormValidation";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <GetInputBoxValue/> */}
       {/* <ShowAndToggle/> */}
       {/* <HandleForm/> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <BasicFormValidation/>
     </>
   );
 }

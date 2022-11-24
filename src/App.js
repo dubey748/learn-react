@@ -5,6 +5,7 @@ import PropsInClassComponent from "./learn/PropsInClassComponent";
 import GetInputBoxValue from "./learn/GetInputBoxValue";
 import ShowAndToggle from "./learn/ShowAndToggle";
 import HandleForm from "./learn/HandleForm";
+import ConditionalRendering from "./learn/ConditionalRendering";
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
       <button onClick={()=>{}}>UpdateName</button> */}
       {/* <GetInputBoxValue/> */}
       {/* <ShowAndToggle/> */}
-      <HandleForm/>
-
+      {/* <HandleForm/> */}
+      <ConditionalRendering />
     </>
   );
 }

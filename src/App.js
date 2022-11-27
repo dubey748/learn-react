@@ -7,8 +7,13 @@ import ShowAndToggle from "./learn/ShowAndToggle";
 import HandleForm from "./learn/HandleForm";
 import ConditionalRendering from "./learn/ConditionalRendering";
 import BasicFormValidation from "./learn/BasicFormValidation";
+import PassFunctionAsProps from "./learn/PassFunctionAsProps"
 
 function App() {
+
+  function PassFunction(){
+    alert("Calling from App")
+  }
   return (
     <>
       {/* <UpdateData /> */}
@@ -21,7 +26,8 @@ function App() {
       {/* <ShowAndToggle/> */}
       {/* <HandleForm/> */}
       {/* <ConditionalRendering /> */}
-      <BasicFormValidation/>
+      {/* <BasicFormValidation/> */}
+      <PassFunctionAsProps data={PassFunction}/>
     </>
   );
 }

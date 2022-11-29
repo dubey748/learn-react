@@ -8,12 +8,13 @@ import HandleForm from "./learn/HandleForm";
 import ConditionalRendering from "./learn/ConditionalRendering";
 import BasicFormValidation from "./learn/BasicFormValidation";
 import PassFunctionAsProps from "./learn/PassFunctionAsProps"
+import UseEffectHooks from "./learn/UseEffectHooks";
 
 function App() {
 
-  function PassFunction(){
-    alert("Calling from App")
-  }
+  // function PassFunction(){
+  //   alert("Calling from App") 
+  // }
   return (
     <>
       {/* <UpdateData /> */}
@@ -27,7 +28,8 @@ function App() {
       {/* <HandleForm/> */}
       {/* <ConditionalRendering /> */}
       {/* <BasicFormValidation/> */}
-      <PassFunctionAsProps data={PassFunction}/>
+      {/* <PassFunctionAsProps data={PassFunction}/> */}
+      <UseEffectHooks/>
     </>
   );
 }

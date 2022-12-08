@@ -20,6 +20,7 @@ import Nav from "./pages/Nav";
 import User from "./pages/User";
 import Filter from "./pages/Filter"
 import Login from "./pages/Login"
+import Api from "./api/Api";
 function App() {
   /*  const [data, setData]= useState(0) 
   const [update, setUpdate]=useState(0) */
@@ -57,6 +58,7 @@ function App() {
           <Route path="/user/:name" element={<Protected Component={User}/>}></Route>
           <Route path="/filter" element={<Filter/>}></Route>
           <Route path="/login" element={<Login/>}></Route>
+          <Route path="/api" element={<Api/>}></Route>
 
         </Routes>
       </BrowserRouter>

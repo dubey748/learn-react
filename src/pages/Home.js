@@ -12,7 +12,7 @@ const Home = () => {
           <Link to="/about">About</Link>
         </li>
       </ul>
-      <ul>
+      {/* <ul>
         <li>
           {" "}
           <Link to="/user/ABhishek">ABhishek</Link>
@@ -20,7 +20,7 @@ const Home = () => {
         <li>
           <Link to="/user/Janu">Janu</Link>
         </li>
-      </ul>
+      </ul> */}
     </>
   );
 };

@@ -20,7 +20,7 @@ import Nav from "./pages/Nav";
 import User from "./pages/User";
 import Filter from "./pages/Filter"
 import Login from "./pages/Login"
-import Api from "./api/Api";
+import Api from "./api/GetApi";
 function App() {
   /*  const [data, setData]= useState(0) 
   const [update, setUpdate]=useState(0) */

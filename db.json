@@ -7,12 +7,6 @@
       "address": "Bhopal"
     },
     {
-      "id": 1,
-      "name": "ABhi",
-      "email": "@g.com",
-      "address": "GKP"
-    },
-    {
       "id": 2,
       "name": "Janu",
       "email": "@.com",
@@ -25,28 +19,10 @@
       "address": "Andn"
     },
     {
-      "id": 4,
-      "name": "Hemu",
-      "email": "@.com",
-      "address": "Andn"
-    },
-    {
       "name": "ABhishek Dubey",
       "email": "dubeyabhishek748@gmail.com",
       "address": "Gkp",
       "id": 5
-    },
-    {
-      "name": "ac",
-      "email": "ac",
-      "address": "ac",
-      "id": 6
-    },
-    {
-      "name": "dd",
-      "email": "dd",
-      "address": "dd",
-      "id": 7
     }
   ]
 }

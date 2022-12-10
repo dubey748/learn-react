@@ -22,6 +22,7 @@ import Filter from "./pages/Filter"
 import Login from "./pages/Login"
 import GetApi from "./api/GetApi";
 import PostApi from "./api/PostApi"
+import DeleteApi from "./api/DeleteApi";
 function App() {
   /*  const [data, setData]= useState(0) 
   const [update, setUpdate]=useState(0) */
@@ -61,6 +62,7 @@ function App() {
           <Route path="/login" element={<Login/>}></Route>
           <Route path="/getapi" element={<GetApi/>}></Route>
           <Route path="/postapi" element={<PostApi/>}></Route>
+          <Route path="/deleteapi" element={<DeleteApi/>}></Route>
 
         </Routes>
       </BrowserRouter>

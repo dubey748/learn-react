@@ -27,6 +27,7 @@ import PreFilledForm from "./api/PreFilledForm";
 import UpdateAPI from "./api/UpdateAPI";
 import PreviousState from "./learn/PreviousState";
 import PreviousPropsWithHooks from "./learn/PreviousPropsWithHooks";
+import StateWithObject from "./StateWithObject";
 function App() {
   /*  const [data, setData]= useState(0) 
   const [update, setUpdate]=useState(0) */
@@ -80,16 +81,17 @@ function App() {
             path="/previousprops"
             element={<PreviousPropsWithHooks count={count} />}
           ></Route>
+           <Route path="/statewithobj" element={<StateWithObject />}></Route>
          
         </Routes>
       </BrowserRouter>
-      <button
+     {/*  <button
             onClick={() => {
               setCount(Math.floor(Math.random()*10));
             }}
           >
             Update Count
-          </button>
+          </button> */}
     </>
   );
 }

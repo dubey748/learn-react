@@ -25,6 +25,7 @@ import PostApi from "./api/PostApi"
 import DeleteApi from "./api/DeleteApi";
 import PreFilledForm from "./api/PreFilledForm";
 import UpdateAPI from "./api/UpdateAPI";
+import PreviousState from "./learn/PreviousState";
 function App() {
   /*  const [data, setData]= useState(0) 
   const [update, setUpdate]=useState(0) */
@@ -67,6 +68,7 @@ function App() {
           <Route path="/deleteapi" element={<DeleteApi/>}></Route>
           <Route path="/pre" element={<PreFilledForm/>}></Route>
           <Route path="/update" element={<UpdateAPI/>}></Route>
+          <Route path="/previous" element={<PreviousState/>}></Route>
 
 
         </Routes>
